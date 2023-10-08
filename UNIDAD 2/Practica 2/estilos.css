@@ -1,0 +1,28 @@
+body {
+    background-color: #daddcc;
+    text-decoration: none;
+}
+
+nav {
+    background-color: rgb(109, 153, 179);
+    margin: 0%;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    padding: 15px 25px;
+}
+
+@media screen and (min-width: 723px) {
+    ul {
+        display: flex;
+        flex-direction: row;
+    }
+  }
